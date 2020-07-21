@@ -12,10 +12,10 @@ const task = {
 
 const phrase = ['很簡單', '很容易', '很快', '很正常']
 
-function generateRubbishTalk(option) {
-  const randomTaskIndex = Math.floor(Math.random() * task[option].length)
+function generateRubbishTalk(type) {
+  const randomTaskIndex = Math.floor(Math.random() * task[type].length)
   const randomPhraseIndex = Math.floor(Math.random() * phrase.length)
-  return `身為一個${target[option]}，${task[option][randomTaskIndex]}，${phrase[randomPhraseIndex]}吧！`
+  return `身為一個${target[type]}，${task[type][randomTaskIndex]}，${phrase[randomPhraseIndex]}吧！`
 }
 
 // export generateRubbishTalk function for other files to use
