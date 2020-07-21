@@ -37,11 +37,12 @@
       </div>
     </div>
 
-    <div class="generate_rubbish mt-2">
-      <button class="btn btn-success" type="submit">產生幹話</button>
-      <div class="alert alert-info mt-2" role="alert">
-        <span class="mr-2">{{#if rubbishTalk}}{{rubbishTalk}}{{/if}}</span>
+    <div class="input-group mt-4">
+      <div class="input-group-prepend">
+        <button class="btn btn-success" type="submit">產生幹話</button>
       </div>
+      <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby=""
+        value="{{#if rubbishTalk}}{{rubbishTalk}}{{/if}}">
     </div>
   </form>
 </div>
