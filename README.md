@@ -1,12 +1,16 @@
 # Rubbish Talk Generator
 
-A simple website using Node.js and Express
-The website generate rubbish talk for engineer, designer and entrepreneur
+A simple website using Node.js and Express.
+
+The website generate rubbish talk for engineer, designer and entrepreneur.
+
 
 ## Feature
 
-User can choose target from engineer, designer or entrepreneur
-User can press enter buttor to generate rubbish talk for select target
+User can choose target from engineer, designer or entrepreneur.
+
+User can press enter buttor to generate rubbish talk for select target.
+
 
 ## Installation
 1. Open terminal and download project
